@@ -17,6 +17,6 @@ jobs:
         with:
           node-version: '20.x'
       - run: npm install express axios
-      
-      - run: node index.js
       - run: echo $GITHUB_SERVER_URL
+      - run: node index.js
+
